@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+        <PackageId>Meal</PackageId>
+        <PackageVersion>1.0.0</PackageVersion>
+        <Description>TheMealDB API client</Description>
+        <PackageTags>mealdb;api;wrapper</PackageTags>
+        <Authors>XXIV</Authors>
+        <PackageIcon>icon.jpg</PackageIcon>
+        <PackageProjectUrl>https://github.com/thechampagne/mealdb-dotnet</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/thechampagne/mealdb-dotnet.git</RepositoryUrl>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <Copyright>Copyright (c) XXIV 2022</Copyright>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	  <None Include="../../LICENSE" Pack="true" PackagePath="\" />
+      <None Include="../../icon.jpg" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+</Project>
